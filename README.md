@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+
+## Cuturl - Your URL Shortening Solution
+  <img src="https://pdfgo.s3.ap-south-1.amazonaws.com/Cuturl.gif" alt="Cuturl Logo" width="300">
+</div>
+
+  
+Welcome to **Cuturl**, the open-source **URL shortening** solution! Say goodbye to long and cumbersome links – with Cuturl, you can effortlessly transform lengthy URLs into compact, **shareable** links. This repository is your gateway to a fast, efficient, and **easy-to-use** URL-shortening service.
+
+
+## :rocket: Features
+
+- :fast_forward: **Instant Shortening**: Quickly shorten URLs with just a click. No need to register or log in.
+
+- :link: **Custom Short URLs**: Create custom short URLs to make them memorable and brand-friendly.
+
+- :bar_chart: **Analytics**: Track the performance of your shortened links with built-in analytics.
+
+- :computer: **Cross-Platform**: Cuturl is designed to work seamlessly on all devices, from desktop to mobile.
+
+- :octocat: **Open Source**: Built on open-source technologies, Cuturl encourages community contributions and improvements.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/sid86-dev/cutrl.git
+   ```
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+2. **Install Dependencies**:
+   ```bash
+   cd cuturl
+   npm install
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Configure the Environment**:
+   Create a `.env` file and set your configuration variables.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+4. **Start the Server**:
+   ```bash
+   npm start
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+5. **Access Cuturl**:
+   Open your browser and visit [http://localhost:3000](http://localhost:3000).
 
-## Learn More
+## :wrench: Customization
 
-To learn more about Next.js, take a look at the following resources:
+You can customize Cuturl to match your branding or requirements by modifying the code and styles. Explore the `config` and `public` directories for configuration and assets.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## :raising_hand: Contribution Guidelines
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Cuturl is an open-source project, and we welcome contributions from the community. If you'd like to contribute, please review our [Contribution Guidelines](CONTRIBUTING.md) for more information.
 
-## Deploy on Vercel
+## :memo: License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Cuturl is distributed under the [MIT License](LICENSE). Feel free to use, modify, and share it according to the terms of the license.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## :mailbox: Support and Contact
+
+For questions, suggestions, or support, feel free to [reach out](mailto:sid86harth@gmail.com). You can also visit our [website](https://cuturl.me) for more information.
+
+## :heart: Acknowledgments
+
+We extend our gratitude to the open-source community for their invaluable contributions and support in making Cuturl a reality.
+
+---
+
+© 2023 Cuturl Project. All rights reserved.

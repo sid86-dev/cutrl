@@ -6,12 +6,12 @@ datasource db {
 }
 
 generator client {
-  provider        = "prisma-client-js"
-  previewFeatures = ["mongoDb"]
+  provider = "prisma-client-js"
+  // previewFeatures = ["mongoDb"]
 }
 
 model Urls {
-  id   String @id @map("_id")
-  longUrl  String
+  id        String   @id @map("_id")
+  longUrl   String
   createdAt DateTime @default(now())
 }

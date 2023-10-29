@@ -1,5 +1,5 @@
-// pages/api/record
-
+// Imports
+// ========================================================
 import { NextApiRequest, NextApiResponse } from "next";
 import {
   getLongUrl,
@@ -8,7 +8,7 @@ import {
   deleteRecord,
 } from "../../prisma/url";
 
-export default async function handle(
+export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {

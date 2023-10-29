@@ -1,0 +1,17 @@
+// prisma/schema.prisma
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["mongoDb"]
+}
+
+model Urls {
+  id   String @id @map("_id")
+  longUrl  String
+  createdAt DateTime @default(now())
+}
